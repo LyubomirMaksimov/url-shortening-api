@@ -1,0 +1,36 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: hsl(257, 7%, 63%);
+}
+
+a:hover {
+  color: #34313d;
+  cursor: pointer;
+}
+
+span {
+  color: rgba(52, 49, 61, 1);
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 45px;
+}
+
+.signup {
+  color: white;
+  background-color: #2bd0d0;
+  padding: 8px 24px;
+  border-radius: 28px;
+  margin: 0px;
+}
+
+.signup:hover {
+  color: white;
+  background-color: #9ae3e3;
+}
