@@ -1,0 +1,130 @@
+.statSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+
+  color: #34313d;
+}
+
+.description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.122727px;
+  color: #9e9aa8;
+  max-width: 540px;
+  margin-top: 18px;
+  margin-bottom: 144px;
+}
+
+.statContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.stat {
+  background-color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  border-radius: 5px;
+  padding: 32px;
+  position: relative;
+  max-width: 26%;
+}
+
+.statLeft {
+  margin-top: -44px;
+  margin-bottom: 44px;
+}
+
+.statRight {
+  margin-top: 44px;
+  margin-bottom: -44px;
+}
+
+.imgSpan {
+  left: 32px;
+  top: -44px;
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  background-color: #3a3054;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #34313d;
+  margin-top: 44px;
+  margin-bottom: 12px;
+}
+
+.statLine {
+  background-color: #2bd0d0;
+  top: 43%;
+  height: 8px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+@media screen and (max-width: 900px) {
+  .statContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stat {
+    max-width: 100%;
+    margin-bottom: 80px;
+  }
+
+  .statLine {
+    top: -80px;
+    width: 8px;
+    height: 100%;
+    position: absolute;
+  }
+
+  .imgSpan {
+    top: -44px;
+    left: 44%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imgSpan {
+    top: -44px;
+    left: 42%;
+  }
+}

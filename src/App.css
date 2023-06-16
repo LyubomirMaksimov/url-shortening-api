@@ -1,5 +1,5 @@
 .container {
-  margin: 48px auto 0px auto;
+  margin: 48px auto;
   max-width: 1108px;
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
 
 .App {
   margin: 80px auto;
+  /* width: 1440px; */
 }
 
 .white-background {
@@ -16,4 +17,8 @@
   position: absolute;
   margin-top: -80px;
   z-index: -1;
+  justify-self: center;
+}
+
+.SiteWidth {
 }

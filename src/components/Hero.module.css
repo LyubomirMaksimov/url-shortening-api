@@ -38,10 +38,16 @@ h1 {
   background-color: #2bd0d0;
 }
 
+.btn:hover {
+  color: white;
+  background-color: #9ae3e3;
+  cursor: pointer;
+}
+
 .hero-img {
   position: absolute;
   /* height: 100%;
   width: 100%; */
-  right: -123px;
-  bottom: 0px;
+  right: -190px;
+  top: -60px;
 }

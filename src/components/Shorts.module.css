@@ -1,0 +1,84 @@
+.shortsForm {
+  margin-top: 105px;
+  background-color: #3a3054;
+  background-image: url("../assets/images/bg-shorten-desktop.svg");
+  height: 64px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 64px;
+  position: relative;
+}
+
+.input {
+  height: 64px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: medium;
+  border-width: 0px;
+  width: 74%;
+  padding-left: 40px;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #34313d;
+}
+
+.error {
+  border-style: solid;
+  color: #f46363;
+  border-width: 3px;
+  border-color: #f46363;
+  outline: none;
+  height: 58px;
+}
+
+.error::placeholder {
+  color: #f46363;
+}
+
+.msg {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.109091px;
+  color: #f46363;
+  top: 125px;
+}
+
+.btn {
+  background-color: #2bd0d0;
+  color: white;
+  font-size: 18px;
+  min-width: 180px;
+  font-weight: bold;
+  padding: 14px 40px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-left: 24px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #9ae3e3;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .shortsForm {
+    margin-top: 88px;
+    background-color: #3a3054;
+    background-image: url("../assets/images/bg-boost-mobile.svg");
+    height: 160px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 52px 64px; */
+    position: relative;
+  }
+}

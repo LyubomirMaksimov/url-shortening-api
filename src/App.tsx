@@ -8,15 +8,15 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div>
+    <div className="SiteWidth">
       <span className="white-background"></span>
       <div className="container">
         <NavBar />
         <Hero />
         <Shorts />
         <Stats />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,66 @@
+.linkContainer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 32px;
+  margin-top: 24px;
+  border-radius: 5px;
+}
+
+.right {
+  display: flex;
+}
+
+.originalLink {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+
+  letter-spacing: 0.15px;
+
+  color: #34313d;
+}
+
+.shortLink {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: right;
+  letter-spacing: 0.15px;
+  margin-right: 24px;
+  padding-left: 15px;
+  color: #2bd0d0;
+}
+
+.linkBtn {
+  max-width: 103px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 9px 32px;
+  background-color: rgba(43, 208, 208, 1);
+  border-style: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.linkBtn:hover {
+  background-color: #9ae3e3;
+  cursor: pointer;
+}
+
+.copied {
+  background-color: rgba(58, 48, 84, 1);
+  padding: 9px 25px;
+}
+
+.copied:hover {
+  background-color: rgba(58, 48, 84, 1);
+  cursor: default;
+}
