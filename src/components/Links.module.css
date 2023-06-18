@@ -64,3 +64,43 @@
   background-color: rgba(58, 48, 84, 1);
   cursor: default;
 }
+
+@media screen and (max-width: 375px) {
+  .linkContainer {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .right {
+    flex-direction: column;
+    margin-left: 0px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+  }
+
+  .originalLink {
+    padding: 6px 0px;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-color: rgb(97, 94, 94);
+    border-style: solid;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .shortLink {
+    text-align: left;
+    margin-left: 0px;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .linkBtn {
+    align-self: center;
+    width: 100%;
+    max-width: 100%;
+  }
+}

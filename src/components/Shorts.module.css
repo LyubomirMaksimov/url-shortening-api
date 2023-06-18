@@ -68,7 +68,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 375px) {
   .shortsForm {
     margin-top: 88px;
     background-color: #3a3054;
@@ -78,7 +78,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* padding: 52px 64px; */
     position: relative;
+    padding: 24px;
+  }
+
+  .btn {
+    width: 100%;
+    align-self: center;
+    margin: 0px;
+    /* height: 48px; */
+    margin-top: 0px;
+  }
+
+  .input {
+    width: 90%;
+    align-self: center;
+    margin: 0px;
+  }
+
+  .msg {
+    top: 95px;
   }
 }

@@ -20,5 +20,22 @@
   justify-self: center;
 }
 
-.SiteWidth {
+.hideMenu {
+  display: none;
+}
+
+.showMenu {
+  display: none;
+  margin-left: 24px;
+}
+
+/* Media Query for 375px */
+@media screen and (max-width: 375px) {
+  .white-background {
+    height: 950px;
+  }
+
+  .showMenu {
+    display: block;
+  }
 }

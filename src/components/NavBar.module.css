@@ -5,6 +5,15 @@
   height: 40px;
 }
 
+.nav-bar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navBarMenu {
+  display: none;
+}
+
 a {
   text-decoration: none;
   margin-right: 30px;
@@ -34,4 +43,31 @@ span {
 .signup:hover {
   color: white;
   background-color: #9ae3e3;
+}
+
+/* Media Query for 375px */
+@media screen and (max-width: 375px) {
+  .nav-bar {
+    margin-top: -20px;
+  }
+  .left-links {
+    display: none;
+  }
+
+  .nav-bar-right {
+    display: none;
+  }
+
+  .navBarMenu {
+    display: contents;
+  }
+
+  .logo {
+    margin-left: 25px;
+  }
+
+  svg {
+    font-size: 30px;
+    margin-right: 20px;
+  }
 }

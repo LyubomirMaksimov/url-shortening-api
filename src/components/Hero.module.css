@@ -46,8 +46,53 @@ h1 {
 
 .hero-img {
   position: absolute;
-  /* height: 100%;
-  width: 100%; */
   right: -190px;
   top: -60px;
+}
+
+@media screen and (max-width: 375px) {
+  .heroContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .hero-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 10px;
+    width: 330px;
+    margin-top: 0px;
+  }
+
+  .hero-img img {
+    width: 510px;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .description {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .btn {
+    justify-self: center;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

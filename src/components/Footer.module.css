@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .boostTitle {
@@ -78,6 +79,7 @@ a {
   letter-spacing: -0.234375px;
   color: #bfbfbf;
   margin-bottom: 10px;
+  margin-right: 0px;
 }
 
 a:hover {
@@ -107,4 +109,58 @@ img:hover {
 .img {
   fill: #2bd0d0;
   cursor: pointer;
+}
+
+/* Media Query for 375px */
+@media screen and (max-width: 375px) {
+  .boostPanel {
+    height: auto;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .boostTitle {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 24px;
+  }
+
+  .boostBtn {
+    margin-top: 24px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    /* padding: 32px; */
+    height: auto;
+  }
+
+  .socialMedia {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .socialMedia img {
+    margin: 0px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-top: 50px;
+  }
+
+  .linksHeader {
+    margin: 24px 0;
+  }
 }

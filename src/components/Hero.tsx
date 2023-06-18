@@ -13,7 +13,9 @@ const Hero = () => {
         </p>
         <p className={styles.btn}>Get Started</p>
       </div>
-      <img className={styles["hero-img"]} src={deskImg} alt="" />
+      <div className={styles["hero-img"]}>
+        <img src={deskImg} alt="" />
+      </div>
     </div>
   );
 };
