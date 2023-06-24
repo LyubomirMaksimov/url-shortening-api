@@ -16,7 +16,12 @@ const Stats = () => {
         <div className={styles.statLine}></div>
         <div className={`${styles.stat} ${styles.statLeft}`}>
           <div className={styles.imgSpan}>
-            <img src={BrandImg} alt="stat1" className={styles.statImg} />
+            <img
+              src={BrandImg}
+              alt="stat1"
+              className={styles.statImg}
+              loading="lazy"
+            />
           </div>
           <p className={styles.statTitle}>Brand Recognition</p>
           <p className={styles.statText}>
@@ -26,18 +31,27 @@ const Stats = () => {
         </div>
         <div className={styles.stat}>
           <div className={styles.imgSpan}>
-            <img src={DetailImg} alt="stat1" className={styles.statImg} />
+            <img
+              src={DetailImg}
+              alt="stat1"
+              className={styles.statImg}
+              loading="lazy"
+            />
           </div>
           <p className={styles.statTitle}>Detailed Records</p>
           <p className={styles.statText}>
             Gain insights into who is clicking your links. Knowing when and
             where people engage with your content helps inform better decisions.
           </p>
-    
         </div>
         <div className={`${styles.stat} ${styles.statRight}`}>
           <div className={styles.imgSpan}>
-            <img src={FullyImg} alt="stat1" className={styles.statImg} />
+            <img
+              src={FullyImg}
+              alt="stat1"
+              className={styles.statImg}
+              loading="lazy"
+            />
           </div>
           <p className={styles.statTitle}>Fully Customizable</p>
           <p className={styles.statText}>

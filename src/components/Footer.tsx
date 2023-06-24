@@ -46,11 +46,10 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.socialMedia}>
-          <img src={fbImg} alt="" />
-          <img src={twitterImg} alt="" />
-          {/* <AiOutlineInstagram className={styles.img} /> */}
-          <img src={pintImg} alt="" />
-          <img src={instagramImg} alt="" />
+          <img src={fbImg} alt="" loading="lazy" />
+          <img src={twitterImg} alt="" loading="lazy" />
+          <img src={pintImg} alt="" loading="lazy" />
+          <img src={instagramImg} alt="" loading="lazy" />
         </div>
       </div>
     </div>

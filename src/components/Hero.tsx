@@ -14,7 +14,7 @@ const Hero = () => {
         <p className={styles.btn}>Get Started</p>
       </div>
       <div className={styles["hero-img"]}>
-        <img src={deskImg} alt="" />
+        <img src={deskImg} alt="" loading='lazy'/>
       </div>
     </div>
   );
