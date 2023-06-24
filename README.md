@@ -5,6 +5,7 @@
 ## Welcome! 👋
 
 This is my solution for the front-end coding challenge.
+The application is mobile responsive as well (375 px)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
@@ -22,3 +23,4 @@ Your users should be able to:
 - Copy the shortened link to their clipboard in a single click
 - Receive an error message when the `form` is submitted if:
 - The `input` field is empty
+757
